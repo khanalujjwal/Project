@@ -71,41 +71,82 @@ body {
 
 }
 
-
-
-.navbar1 {
-
+.narbar {
     display: flex;
-
     align-items: center;
     padding: 10px 20px;
 
-
 }
 
-.nav-left-1 {
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navbar .nav-links a {
+    color: #E0E0E0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar .nav-links a:hover {
+    color: #FFFFFF;
+}
+
+.logo {
+
+    margin-right: 10px;
     width: 24px;
     height: 24px;
-    display: flex;
-    padding: 10px 20px;
-    margin-left: 300px;
-    gap: 50%;
-    justify-content: space-between;
-
-
+    top: 264px;
+    left: -307px;
+    gap: 0px;
+    opacity: 0px;
 
 }
 
-.nav-right-1 {
-    color: #909090;
+.logo1 {
 
-    justify-content: space-evenly;
-    margin-left: 40rem;
-    font-family: Resursive;
-    font-size: 27px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: left;
-    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    top: 264px;
+    left: -270px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+
+.containers {
+    width: 1680px;
+    height: 2753px;
+    top: -445px;
+    left: -527px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.containers .container1 {
+    width: 1680px;
+    height: 2753px;
+    top: -445px;
+    left: -527px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.containers .container1 .pic1 {
+    width: 337.08px;
+    height: 160px;
+    top: 429px;
+    left: -282.54px;
+    gap: 0px;
+    border-radius: 22px 0px 0px 0px;
+    opacity: 0px;
+
 }
